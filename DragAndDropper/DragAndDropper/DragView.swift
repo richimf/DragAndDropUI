@@ -18,7 +18,6 @@ final class DragView: NSView {
     
     private var fileTypeIsOk = false
     private var fileTypes = ["sh"] // TODO: - ADD THE DESIRED FILE EXTENSION
-//    private var droppedFilePath: String?
     
     override init(frame frameRect: NSRect) {
         super.init(frame: frameRect)
@@ -55,8 +54,6 @@ final class DragView: NSView {
     
     override func performDragOperation(_ sender: NSDraggingInfo) -> Bool {
         if let board = sender.draggingPasteboard.propertyList(forType: convertToNSPasteboardPasteboardType("NSFilenamesPboardType")) as? NSArray,
-           // let filePath  = board[0] as? String {
-           // droppedFilePath = filePath
             let filePath = board[0] as? String {
             delegate?.droppedFilePath(filePath)
             return true
