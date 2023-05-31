@@ -14,6 +14,7 @@
 		8C3014FC2A279072004B3F87 /* DragAndDropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3014FB2A279072004B3F87 /* DragAndDropperTests.swift */; };
 		8C3015062A279072004B3F87 /* DragAndDropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3015052A279072004B3F87 /* DragAndDropperUITests.swift */; };
 		8C3015082A279072004B3F87 /* DragAndDropperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3015072A279072004B3F87 /* DragAndDropperUITestsLaunchTests.swift */; };
+		8C3015152A2794FE004B3F87 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3015142A2794FE004B3F87 /* DragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8C3015012A279072004B3F87 /* DragAndDropperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAndDropperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3015052A279072004B3F87 /* DragAndDropperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropperUITests.swift; sourceTree = "<group>"; };
 		8C3015072A279072004B3F87 /* DragAndDropperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C3015142A2794FE004B3F87 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				8C3014E92A279072004B3F87 /* AppDelegate.swift */,
+				8C3015142A2794FE004B3F87 /* DragView.swift */,
 				8C3014EB2A279072004B3F87 /* ViewController.swift */,
 				8C3014ED2A279072004B3F87 /* Assets.xcassets */,
 				8C3014EF2A279072004B3F87 /* Main.storyboard */,
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3015152A2794FE004B3F87 /* DragView.swift in Sources */,
 				8C3014EC2A279072004B3F87 /* ViewController.swift in Sources */,
 				8C3014EA2A279072004B3F87 /* AppDelegate.swift in Sources */,
 			);
